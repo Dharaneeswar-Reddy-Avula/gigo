@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script>
+        tailwind.config = {
+            mode: 'jit',
+            theme: {
+                extend: {},
+            },
+            variants: {},
+            plugins: [],
+        }
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[#090a1a]">
+    <!-- <div class="score-board wrapper bg-[#121332] w-full h-full">
+    <div class="scoreboard-analysis flex bg-[#121332] font-['ubuntu','sans-serif'] flex-wrap xl:gap-x-[70px] gap-y-[50px]  rounded-lg w-full lg:p-[20px] justify-center">
+        <div class="scoreboard w-full md:w-[500px] bg-[#0a0919] md:skew-x-[-20deg]  rounded-2xl flex [box-shadow:inset_0_0_10px_0_rgb(237,236,248)] md:[box-shadow:inset_0_0_30px_0_rgb(237,236,248)] flex-col md:flex-row  p-[25px] lg:px-[0px]">
+             <div class="photo md:h-[120px] md:w-[120px] md:shadow-[0_40px_10px_0_#e066ff] rounded-2xl md:py-[30px] md:ml-[-30px] flex justify-start w-full">
+                <img src="ironmain.jpeg" class="md:h-[120px] md:w-[120px] h-[200px] w-[320px] rounded-2xl">
+             </div>
+             <div class="details p-[25px] md:skew-x-[20deg]">
+                <h1 class="text-[white] text-[20px]">ELON REKT</h1>
+                <span class="text-[white] text-[16px] font-semibold pr-[20px]"><i class="fa-solid fa-signal  text-[10px] font-bold pr-[5px]"></i>Level 58</span>
+                <span class="text-[white] text-[16px] font-semibold"><i class="fa-solid fa-wifi text-[10px] font-bold pr-[5px]"></i>Alliance 12</span>
+             <div class="score py-[20px] flex   gap-[20px]">
+                <div class="wins">
+                    <h1 class="text-[white] text-[20px] font-['Orbitron'] font-semibold">125</h1>
+                    <p class="text-[#b7b9c8] text-[12px]">WINS</p>
+                </div> 
+                <div class="loses">
+                    <h1 class="text-[white] text-[20px] font-['Orbitron'] font-semibold">78</h1>
+                    <p class="text-[#b7b9c8] text-[12px]">LOSES</p>
+                </div>
+             <div class="loses">
+                <h1 class="text-[white] text-[20px] font-['Orbitron'] font-semibold">50</h1>
+                <p class="text-[#b7b9c8] text-[12px]">KILLS</p>
+            </div>
+             </div>
+            </div>
+                <div class="buttons flex md:flex-col md:skew-x-[0deg] skew-x-[-20deg] md:justify-center gap-[10px]">
+                <div class="battle skew-x-[-20deg] rounded-xl">
+                <button class="bg-gradient-to-r from-violet-700 to-purple-500 text-[white] h-[50px] w-[120px] rounded-lg skew-x-[25deg]"><i class="fa-solid fa-play text-[white] pr-[10px]"></i>Battle</button></div>
+                <div class="profile px-[10px] skew-x-[-20deg]">
+                <button class="bg-gradient-to-r from-purple-500 to-violet-500 text-[white] h-[50px] w-[120px] rounded-lg  skew-x-[25deg]"><i class="fa-solid fa-user text-[white] pr-[10px]"></i>Profile</button>
+                </div>
+             </div>
+        </div> 
+        <div class="scoreboard w-full md:w-[500px] bg-[#0a0919] md:skew-x-[-20deg]  rounded-2xl flex [box-shadow:inset_0_0_10px_0_rgb(237,236,248)] md:[box-shadow:inset_0_0_30px_0_rgb(237,236,248)] flex-col md:flex-row  p-[25px] lg:px-[0px]">
+            <div class="photo md:h-[120px] md:w-[120px] md:shadow-[0_40px_10px_0_#e066ff] rounded-2xl md:py-[30px] md:ml-[-30px] flex justify-start w-full">
+               <img src="ironmain.jpeg" class="md:h-[120px] md:w-[120px] h-[200px] w-[320px] rounded-2xl">
+            </div>
+            <div class="details p-[15px] md:p-[25px] md:skew-x-[20deg]">
+               <h1 class="text-[white] text-[20px]">ELON REKT</h1>
+               <span class="text-[white] text-[16px] font-semibold pr-[20px]"><i class="fa-solid fa-signal  text-[10px] font-bold pr-[5px]"></i>Level 58</span>
+               <span class="text-[white] text-[16px] font-semibold"><i class="fa-solid fa-wifi text-[10px] font-bold pr-[5px]"></i>Alliance 12</span>
+            <div class="score py-[20px] flex   gap-[20px]">
+               <div class="wins">
+                   <h1 class="text-[white] text-[20px] font-['Orbitron'] font-semibold">125</h1>
+                   <p class="text-[#b7b9c8] text-[12px]">WINS</p>
+               </div> 
+               <div class="loses">
+                   <h1 class="text-[white] text-[20px] font-['Orbitron'] font-semibold">78</h1>
+                   <p class="text-[#b7b9c8] text-[12px]">LOSES</p>
+               </div>
+            <div class="loses">
+               <h1 class="text-[white] text-[20px] font-['Orbitron'] font-semibold">50</h1>
+               <p class="text-[#b7b9c8] text-[12px]">KILLS</p>
+           </div>
+            </div>
+           </div>
+               <div class="buttons flex md:flex-col md:skew-x-[0deg] skew-x-[-20deg] md:justify-center gap-[10px] ">
+               <div class="battle skew-x-[-20deg] rounded-xl">
+               <button class="bg-gradient-to-r from-violet-700 to-purple-500 text-[white] h-[50px] w-[120px] rounded-lg skew-x-[25deg]"><i class="fa-solid fa-play text-[white] pr-[10px]"></i>Battle</button></div>
+               <div class="profile px-[10px] skew-x-[-20deg]">
+               <button class="bg-gradient-to-r from-purple-500 to-violet-500 text-[white] h-[50px] w-[120px] rounded-lg  skew-x-[25deg]"><i class="fa-solid fa-user text-[white] pr-[10px]"></i>Profile</button>
+               </div>
+            </div>
+       </div> 
+       <div class="scoreboard w-full md:w-[500px] bg-[#0a0919] md:skew-x-[-20deg]  rounded-2xl flex [box-shadow:inset_0_0_10px_0_rgb(237,236,248)] md:[box-shadow:inset_0_0_30px_0_rgb(237,236,248)] flex-col md:flex-row  p-[25px] lg:px-[0px]">
+        <div class="photo md:h-[120px] md:w-[120px] md:shadow-[0_40px_10px_0_#e066ff] rounded-2xl md:py-[30px] md:ml-[-30px] flex justify-start w-full">
+           <img src="ironmain.jpeg" class="md:h-[120px] md:w-[120px] h-[200px] w-[320px] rounded-2xl">
+        </div>
+        <div class="details p-[25px] md:skew-x-[20deg]">
+           <h1 class="text-[white] text-[20px]">ELON REKT</h1>
+           <span class="text-[white] text-[16px] font-semibold pr-[20px]"><i class="fa-solid fa-signal  text-[10px] font-bold pr-[5px]"></i>Level 58</span>
+           <span class="text-[white] text-[16px] font-semibold"><i class="fa-solid fa-wifi text-[10px] font-bold pr-[5px]"></i>Alliance 12</span>
+        <div class="score py-[20px] flex   gap-[20px]">
+           <div class="wins">
+               <h1 class="text-[white] text-[20px] font-['Orbitron'] font-semibold">125</h1>
+               <p class="text-[#b7b9c8] text-[12px]">WINS</p>
+           </div> 
+           <div class="loses">
+               <h1 class="text-[white] text-[20px] font-['Orbitron'] font-semibold">78</h1>
+               <p class="text-[#b7b9c8] text-[12px]">LOSES</p>
+           </div>
+        <div class="loses">
+           <h1 class="text-[white] text-[20px] font-['Orbitron'] font-semibold">50</h1>
+           <p class="text-[#b7b9c8] text-[12px]">KILLS</p>
+       </div>
+        </div>
+       </div>
+           <div class="buttons flex md:flex-col md:skew-x-[0deg] skew-x-[-20deg] md:justify-center gap-[10px]">
+           <div class="battle skew-x-[-20deg] rounded-xl">
+           <button class="bg-gradient-to-r from-violet-700 to-purple-500 text-[white] h-[50px] w-[120px] rounded-lg skew-x-[25deg]"><i class="fa-solid fa-play text-[white] pr-[10px]"></i>Battle</button></div>
+           <div class="profile px-[10px] skew-x-[-20deg]">
+           <button class="bg-gradient-to-r from-purple-500 to-violet-500 text-[white] h-[50px] w-[120px] rounded-lg  skew-x-[25deg]"><i class="fa-solid fa-user text-[white] pr-[10px]"></i>Profile</button>
+           </div>
+        </div>
+   </div> 
+   <div class="scoreboard w-full md:w-[500px] bg-[#0a0919] md:skew-x-[-20deg]  rounded-2xl flex [box-shadow:inset_0_0_10px_0_rgb(237,236,248)] md:[box-shadow:inset_0_0_30px_0_rgb(237,236,248)] flex-col md:flex-row  p-[25px] lg:px-[0px]">
+       <div class="photo md:h-[120px] md:w-[120px] md:shadow-[0_40px_10px_0_#e066ff] rounded-2xl md:py-[30px] md:ml-[-30px] flex justify-start w-full">
+          <img src="ironmain.jpeg" class="md:h-[120px] md:w-[120px] h-[200px] w-[320px] rounded-2xl">
+       </div>
+       <div class="details p-[15px] md:p-[25px] md:skew-x-[20deg]">
+          <h1 class="text-[white] text-[20px]">ELON REKT</h1>
+          <span class="text-[white] text-[16px] font-semibold pr-[20px]"><i class="fa-solid fa-signal  text-[10px] font-bold pr-[5px]"></i>Level 58</span>
+          <span class="text-[white] text-[16px] font-semibold"><i class="fa-solid fa-wifi text-[10px] font-bold pr-[5px]"></i>Alliance 12</span>
+       <div class="score py-[20px] flex   gap-[20px]">
+          <div class="wins">
+              <h1 class="text-[white] text-[20px] font-['Orbitron'] font-semibold">125</h1>
+              <p class="text-[#b7b9c8] text-[12px]">WINS</p>
+          </div> 
+          <div class="loses">
+              <h1 class="text-[white] text-[20px] font-['Orbitron'] font-semibold">78</h1>
+              <p class="text-[#b7b9c8] text-[12px]">LOSES</p>
+          </div>
+       <div class="loses">
+          <h1 class="text-[white] text-[20px] font-['Orbitron'] font-semibold">50</h1>
+          <p class="text-[#b7b9c8] text-[12px]">KILLS</p>
+      </div>
+       </div>
+      </div>
+          <div class="buttons flex md:flex-col md:skew-x-[0deg] skew-x-[-20deg] md:justify-center gap-[10px] ">
+          <div class="battle skew-x-[-20deg] rounded-xl">
+          <button class="bg-gradient-to-r from-violet-700 to-purple-500 text-[white] h-[50px] w-[120px] rounded-lg skew-x-[25deg]"><i class="fa-solid fa-play text-[white] pr-[10px]"></i>Battle</button></div>
+          <div class="profile px-[10px] skew-x-[-20deg]">
+          <button class="bg-gradient-to-r from-purple-500 to-violet-500 text-[white] h-[50px] w-[120px] rounded-lg  skew-x-[25deg]"><i class="fa-solid fa-user text-[white] pr-[10px]"></i>Profile</button>
+          </div>
+       </div>
+  </div> 
+  <div class="scoreboard w-full md:w-[500px] bg-[#0a0919] md:skew-x-[-20deg]  rounded-2xl flex [box-shadow:inset_0_0_10px_0_rgb(237,236,248)] md:[box-shadow:inset_0_0_30px_0_rgb(237,236,248)] flex-col md:flex-row  p-[25px] lg:px-[0px]">
+    <div class="photo md:h-[120px] md:w-[120px] md:shadow-[0_40px_10px_0_#e066ff] rounded-2xl md:py-[30px] md:ml-[-30px] flex justify-start w-full">
+       <img src="ironmain.jpeg" class="md:h-[120px] md:w-[120px] h-[200px] w-[320px] rounded-2xl">
+    </div>
+    <div class="details p-[25px] md:skew-x-[20deg]">
+       <h1 class="text-[white] text-[20px]">ELON REKT</h1>
+       <span class="text-[white] text-[16px] font-semibold pr-[20px]"><i class="fa-solid fa-signal  text-[10px] font-bold pr-[5px]"></i>Level 58</span>
+       <span class="text-[white] text-[16px] font-semibold"><i class="fa-solid fa-wifi text-[10px] font-bold pr-[5px]"></i>Alliance 12</span>
+    <div class="score py-[20px] flex   gap-[20px]">
+       <div class="wins">
+           <h1 class="text-[white] text-[20px] font-['Orbitron'] font-semibold">125</h1>
+           <p class="text-[#b7b9c8] text-[12px]">WINS</p>
+       </div> 
+       <div class="loses">
+           <h1 class="text-[white] text-[20px] font-['Orbitron'] font-semibold">78</h1>
+           <p class="text-[#b7b9c8] text-[12px]">LOSES</p>
+       </div>
+    <div class="loses">
+       <h1 class="text-[white] text-[20px] font-['Orbitron'] font-semibold">50</h1>
+       <p class="text-[#b7b9c8] text-[12px]">KILLS</p>
+   </div>
+    </div>
+   </div>
+       <div class="buttons flex md:flex-col md:skew-x-[0deg] skew-x-[-20deg] md:justify-center gap-[10px]">
+       <div class="battle skew-x-[-20deg] rounded-xl">
+       <button class="bg-gradient-to-r from-violet-700 to-purple-500 text-[white] h-[50px] w-[120px] rounded-lg skew-x-[25deg]"><i class="fa-solid fa-play text-[white] pr-[10px]"></i>Battle</button></div>
+       <div class="profile px-[10px] skew-x-[-20deg]">
+       <button class="bg-gradient-to-r from-purple-500 to-violet-500 text-[white] h-[50px] w-[120px] rounded-lg  skew-x-[25deg]"><i class="fa-solid fa-user text-[white] pr-[10px]"></i>Profile</button>
+       </div>
+    </div>
+</div> 
+<div class="scoreboard w-full md:w-[500px] bg-[#0a0919] md:skew-x-[-20deg]  rounded-2xl flex [box-shadow:inset_0_0_10px_0_rgb(237,236,248)] md:[box-shadow:inset_0_0_30px_0_rgb(237,236,248)] flex-col md:flex-row  p-[25px] lg:px-[0px]">
+   <div class="photo md:h-[120px] md:w-[120px] md:shadow-[0_40px_10px_0_#e066ff] rounded-2xl md:py-[30px] md:ml-[-30px] flex justify-start w-full">
+      <img src="ironmain.jpeg" class="md:h-[120px] md:w-[120px] h-[200px] w-[320px] rounded-2xl">
+   </div>
+   <div class="details p-[15px] md:p-[25px] md:skew-x-[20deg]">
+      <h1 class="text-[white] text-[20px]">ELON REKT</h1>
+      <span class="text-[white] text-[16px] font-semibold pr-[20px]"><i class="fa-solid fa-signal  text-[10px] font-bold pr-[5px]"></i>Level 58</span>
+      <span class="text-[white] text-[16px] font-semibold"><i class="fa-solid fa-wifi text-[10px] font-bold pr-[5px]"></i>Alliance 12</span>
+   <div class="score py-[20px] flex   gap-[20px]">
+      <div class="wins">
+          <h1 class="text-[white] text-[20px] font-['Orbitron'] font-semibold">125</h1>
+          <p class="text-[#b7b9c8] text-[12px]">WINS</p>
+      </div> 
+      <div class="loses">
+          <h1 class="text-[white] text-[20px] font-['Orbitron'] font-semibold">78</h1>
+          <p class="text-[#b7b9c8] text-[12px]">LOSES</p>
+      </div>
+   <div class="loses">
+      <h1 class="text-[white] text-[20px] font-['Orbitron'] font-semibold">50</h1>
+      <p class="text-[#b7b9c8] text-[12px]">KILLS</p>
+  </div>
+   </div>
+  </div>
+      <div class="buttons flex md:flex-col md:skew-x-[0deg] skew-x-[-20deg] md:justify-center gap-[10px] ">
+      <div class="battle skew-x-[-20deg] rounded-xl">
+      <button class="bg-gradient-to-r from-violet-700 to-purple-500 text-[white] h-[50px] w-[120px] rounded-lg skew-x-[25deg]"><i class="fa-solid fa-play text-[white] pr-[10px]"></i>Battle</button></div>
+      <div class="profile px-[10px] skew-x-[-20deg]">
+      <button class="bg-gradient-to-r from-purple-500 to-violet-500 text-[white] h-[50px] w-[120px] rounded-lg  skew-x-[25deg]"><i class="fa-solid fa-user text-[white] pr-[10px]"></i>Profile</button>
+      </div>
+   </div>
+</div> 
+      
+   </div>
+    </div>  -->
+    <footer class="bg-[#090a1a]">
+    <div class="flex  p-[24px] flex-row  gap-[20px] xl:gap-[50px] lg:justify-between flex-wrap">
+      <div class="flex flex-col justify-center w-full md:w-2/3 lg:w-2/6 pl-0 lg:pl-[30px]">
+          <p><img src="https://gigo.prexius.com/images/logo.png"></p>
+          <p class="text-[#9ca0d2] pr-0 md:pr-10 lg:pr-10 text-lg pt-3">Gigo is a unique and beautiful collection of UI elements that are all flexible and modular. A complete and customizable solution to building the website of your dreams.
+          </p>
+      </div>
+      <div class="flex justify-center flex-col leading-loose w-[120px] md:w-[150px] lg:w-[120px]" >
+         <p class="text-white font-bold">About us</p>
+         <p class="text-[#9ca0d2] text-lg pt-2">Explore</p>
+         <p class="text-[#9ca0d2] text-lg">Item</p>
+         <p class="text-[#9ca0d2] text-lg">Collection</p>
+         <p class="text-[#9ca0d2] text-lg">Connect</p>
+     </div>
+     <div class="flex justify-center  flex-col leading-loose  w-[120px] md:w-[150px] lg:w-[120px">
+      <p class="text-white font-bold">Settings</p>
+      <p class="text-[#9ca0d2] text-lg pt-2">Settings</p>
+      <p class="text-[#9ca0d2] text-lg">Application</p>
+      <p class="text-[#9ca0d2] text-lg">Security</p>
+      <p class="text-[#9ca0d2] text-lg">Activity</p>
+      </div>
+      <div class="flex justify-center  flex-col leading-loose w-[120px] md:w-[150px] lg:w-[120px ">
+         <p class="text-white font-bold">Profile</p>
+         <p class="text-[#9ca0d2] text-lg pt-2">Profile</p>
+         <p class="text-[#9ca0d2] text-lg">Created</p>
+         <p class="text-[#9ca0d2] text-lg">Collected</p>
+         <p class="text-[#9ca0d2] text-lg">Activity</p>
+     </div>
+     <div class="flex justify-center  flex-col w-[120px] md:w-[150px] lg:w-[120px]">
+      <p class="text-[#9ca0d2] text-lg pt-8">On Sale</p>
+      <p class="text-[#9ca0d2] text-lg">Liked</p>
+      <p class="text-[#9ca0d2] text-lg">Following</p>
+      <p class="text-[#9ca0d2] text-lg">Followers</p>
+  </div>
+
+      </div>
+    
+      <hr class="border-t-2 border-gray-500/50">
+      <div class="flex flex-col md:flex-row md:justify-between items-center pt-4">
+          <p class="pl-2 md:pl-14 text-[#9ca0d2]">© Copyright 2022 <span class="text-blue-700">Gigo</span> All Rights Reserved</p>
+          <div class="flex flex-row justify-center gap-[8px] px-[50px]">
+              <p class="pt-0 md:pt-3"><i class="fa-brands fa-facebook" style="color: #b4b7bb;"></i></p>
+              <p class="pt-0 md:pt-3"><i class="fa-brands fa-twitter" style="color: #adafb3;"></i></p>
+              <p class="pt-0 md:pt-3"><i class="fa-brands fa-linkedin" style="color: #adafb3;"></i></p>
+              <p class="pt-0 md:pt-3"><i class="fa-brands fa-youtube" style="color: #a6aab0;"></i></p>
+
+          </div>
+      </div>
+    </footer>
+   </body>
+</html>

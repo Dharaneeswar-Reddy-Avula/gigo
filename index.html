@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GIGO</title>
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script>
+        tailwind.config = {
+            mode: 'jit',
+            theme: {
+                extend: {},
+            },
+            variants: {},
+            plugins: [],
+        }
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="nav fixed w-full">
+        <div class="nav-top h-[50px] w-full bg-[#262626] flex items-center justify-between px-[20px]">
+            <div class="logo flex items-center">
+              <a href="explore.html" target="_self"><img src="images/logo.png" class="h-[20px] w-[20px]"></a>
+              <h2 class="text-[white]"><span class="font-semibold text-[24px]">envato</span> <span class="font-thin text-[24px]">market</span></h2>
+            </div>
+            <div class="button h-[30px] w-[100px] bg-[#82b440] text-[white] flex justify-center items-center rounded-lg">Buy now</div>
+
+        </div>
+        <div class="nav-bottom bg-[#090a1a] h-[70px] w-full flex items-center justify-around">
+            <div class="nav-bottom-logo">
+                <img src="https://gigo.prexius.com/images/logo.png">
+            </div>
+            <button class="text-white font-semibold bg-[blue] h-[50px] w-[150px] rounded-full">Buy now</button>
+        </div>
+    </div>
+
+    <div class="demo p-[20px] bg-[#090a1a]">
+        <div class="demotitle">
+            <h1 class="text-[white] text-[48px] text-center font-semibold">Demo</h1>
+        </div>
+    <div class="demo-boxes flex p-[15px] lg:p-[80px] w-full gap-[30px] lg:gap-[70px] flex-wrap justify-center ">
+    <div class="home w-full md:w-1/4">
+    <img src="images/home.png" class="p-[20px] mb-[15px] shadow-[0px_0px_20px_rgba(128,90,213,0.5)] rounded-lg md:hover:transition-transform duration-300 md:hover:scale-[1.3]">
+    <p class="text-[white] mb-[8px] text-center font-semibold text-[20px]">Home</p>
+    </div>
+    <div class="explore-grid md:w-1/4">
+        <img src="images/explore-grid.png" class="p-[10px] mb-[15px] shadow-[0px_0px_20px_0px_rgba(128,90,213,0.5)] rounded-lg md:hover:transition-transform duration-300 md:hover:scale-[1.2]">
+        <p class="text-[white] mb-[8px] text-center font-semibold text-[20px]">Explore Grid</p>
+    </div>
+    <div class="explore-list md:w-1/4">
+        <img src="images/explore-list.png" class="p-[10px] mb-[15px] shadow-[0px_0px_20px_rgba(128,90,213,0.5)] rounded-lg md:hover:transition-transform duration-300 md:hover:scale-[1.2]">
+        <p class="text-[white] mb-[8px] text-center font-semibold text-[20px]">Explore List</p>
+    </div>
+    <div class="explore-details md:w-1/4">
+        <img src="images/explore-details.png" class="p-[10px] mb-[15px] shadow-[0px_0px_20px_rgba(128,90,213,0.5)] rounded-lg md:hover:transition-transform duration-300 md:hover:scale-[1.3]">
+        <p class="text-[white] mb-[8px] text-center font-semibold text-[20px]">Explore Details</p>
+        </div>
+        <div class="staking md:w-1/4">
+            <img src="images/staking.png" class="p-[10px] mb-[15px] shadow-[0px_0px_20px_0px_rgba(128,90,213,0.5)] rounded-lg md:hover:transition-transform duration-300 md:hover:scale-[1.3]">
+            <p class="text-[white] mb-[8px] text-center font-semibold text-[20px]">Staking</p>
+        </div>
+        <div class="farming md:w-1/4">
+            <img src="images/farming.png" class="p-[10px] mb-[15px] shadow-[0px_0px_20px_rgba(128,90,213,0.5)] rounded-lg md:hover:transition-transform duration-300 md:hover:scale-[1.3]">
+            <p class="text-[white] mb-[8px] text-center font-semibold text-[20px]">Farming</p>
+        </div>
+        <div class="leaderboard w-full md:w-1/4">
+            <img src="images/leaderboard.png" class="p-[10px] mb-[15px] shadow-[0px_0px_20px_rgba(128,90,213,0.5)] rounded-lg md:hover:transition-transform duration-300 md:hover:scale-[1.3]">
+            <p class="text-[white] mb-[8px] text-center font-semibold text-[20px]">Leaderboard</p>
+            </div>
+            <div class="ranking w-full md:w-1/4">
+                <img src="images/ranking.png" class="p-[10px] mb-[15px] shadow-[0px_0px_20px_rgba(128,90,213,0.5)] rounded-lg md:hover:transition-transform duration-300 md:hover:scale-[1.3]">
+                <p class="text-[white] mb-[8px] text-center font-semibold text-[20px]">Ranking</p>
+                </div>
+                <div class="roadmap md:w-1/4">
+                    <img src="images/roadmap.png" class="p-[10px] mb-[15px] shadow-[0px_0px_20px_rgba(128,90,213,0.5)] rounded-lg md:hover:transition-transform duration-300 md:hover:scale-[1.3]">
+                    <p class="text-[white] mb-[8px] text-center font-semibold text-[20px]">Roadmap</p>
+                </div>
+                <div class="team w-full md:w-1/4">
+                    <img src="images/team.png" class="p-[10px] mb-[15px] shadow-[0px_0px_20px_rgba(128,90,213,0.5)] rounded-lg md:hover:transition-transform duration-300 md:hover:scale-[1.3]">
+                    <p class="text-[white] mb-[8px] text-center font-semibold text-[20px]">Team</p>
+                    </div>
+                    <div class="contact md:w-1/4">
+                        <img src="images/contact.png" class="p-[10px] mb-[15px] shadow-[0px_0px_20px_rgba(128,90,213,0.5)] rounded-lg md:hover:transition-transform duration-300 md:hover:scale-[1.3]">
+                        <p class="text-[white] mb-[8px] text-center font-semibold text-[20px]">Contact</p>
+                    </div>
+                    <div class="signin w-full md:w-1/4">
+                        <img src="images/signin.png" class="p-[10px] mb-[15px] shadow-[0px_0px_20px_rgba(128,90,213,0.5)] rounded-lg md:hover:transition-transform duration-300 md:hover:scale-[1.3]">
+                        <p class="text-[white] mb-[8px] text-center font-semibold text-[20px]">SignIn</p>
+                    </div>
+                    <div class="signup w-full md:w-1/4">
+                        <img src="images/signup.png" class="p-[10px] mb-[15px] shadow-[0px_0px_20px_rgba(128,90,213,0.5)] rounded-lg md:hover:transition-transform duration-300 md:hover:scale-[1.3]">
+                        <p class="text-[white] mb-[8px] text-center font-semibold text-[20px]">SignUp</p>
+                        </div>
+                        <div class="roadmap md:w-1/4">
+                        </div>
+                        <div class="team w-full md:w-1/4">                     
+                        </div>
+                        
+                    
+                
+
+    </div>
+    </div>
+   
+</body>
+</html>

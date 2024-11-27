@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script>
+        tailwind.config = {
+            mode: 'jit',
+            theme: {
+                extend: {},
+            },
+            variants: {},
+            plugins: [],
+        }
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="nav relative w-full z-10 h-[120px] pb-[100px]">
+        <div class="nav-top h-[50px] w-full bg-[#262626] flex items-center justify-between px-[20px] fixed">
+            <div class="logo flex items-center">
+                <img src="images/logo.png" class="h-[20px] w-[20px]">
+                <h2 class="text-[white]">
+                    <span class="font-semibold text-[24px]">envato</span>
+                    <span class="font-thin text-[24px]">market</span>
+                </h2>
+            </div>
+            <div class="button h-[30px] w-[100px] bg-[#82b440] text-[white] flex justify-center items-center rounded-lg">
+                Buy now
+            </div>
+        </div>
+        <div class="nav-bottom bg-[#090a1a] h-[70px] w-full flex items-center justify-around fixed top-[50px]">
+            <div class="nav-bottom-logo">
+                <img src="https://gigo.prexius.com/images/logo.png">
+            </div>
+            <button class="text-white font-semibold bg-[blue] h-[50px] w-[150px] rounded-full">Buy now</button>
+        </div>
+    </div>
+    <div class="dont worry flex flex-col lg:flex-row md:flex-col w-full p-[15px] xl:px-[120px] gap-[20px] bg-[#090a1a] md:py-[70px]">
+        <div class="imagediv w-full md:w-full lg:w-1/2 rounded-full">
+            <p><img src="https://gigo.prexius.com/images/items/v2.jpg" class="h-full w-full  md:h-full md:w-full lg:w-[400px]  rounded-xl pt-[20px]"></p>
+        </div>
+        <div class="w-full md:w-full lg:w-1/2  font-thick xl:pt-[20px] md:px-[25px]">
+            <p class="text-[#9ca0d2] text-lg md:text-3xl lg:text-lg">WELCOME TO GigoSTARTER</p>
+            <p class="text-2xl text-white text-3xl lg:text-3xl md:text-5xl font-bold pt-8">What We Do</p>
+            <p class="text-[#9ca0d2] pt-8 text-lg lg:text-3xl lg:text-lg ">We’re a blockchain gaming launchpad focused on growing the Gigo ecosystem and the metaverse.</p>
+            <p class="text-[#9ca0d2] pt-4 text-lg lg:text-3xl lg:text-lg">Built on Gigo’s JumpNet with a roadmap towards Efinity, our proprietary platform will enable creators and game developers to run capital-raising campaigns and build communities using blockchain technology.</p>
+            <p class="text-[#9ca0d2] pt-4 text-lg lg:text-3xl lg:text-lg">Beyond issuing tokens, we provide game developers a way to explore other innovative ways of raising capital to fund their projects through the sale of virtual items as non-fungible tokens (NFTs).</p>
+            <p class="text-[#9ca0d2] pt-4 text-lg lg:text-3xl lg:text-lg">Our incubation program, supported by an accredited partner network, will provide projects with end-to-end support to develop sustainable strategies and launch successful campaigns.</p>
+        </div>
+    </div>
+    
+    <div class="VISION MISSION flex flex-col md:flex-row w-full  bg-[#090a1a] px-[20px] lg:px-[100px] gap-[30px] lg:h-[600px] md:p-[20px]">
+        <div class="w-full md:w-1/2 flex justify-center flex-col items-center text-center xl:px-[40px]">
+            <div class="w-[100px] h-[100px] flex items-center justify-center bg-[#001aff] rounded-full mb-[20px]">
+                <i class="fa-solid fa-paper-plane text-[40px] text-white"></i>
+            </div>
+            <p class="text-[#9ca0d2] font-bold">Our mission</p>
+            <p class="font-bold text-2xl text-white mt-[10px] leading-[40px]">Create Ecosystem For Blockchain Gaming</p>
+            <p class="text-[#9ca0d2] text-[18px] mt-[10px] font-[400]">
+                To help create a better world by embracing blockchain-powered emerging technologies. We believe we are in a pivotal moment in history where humanity is preparing for the New Normal Virtual worlds will accelerate us into this new reality, revolutionizing how we live, work and play.
+            </p>
+        </div>
+    
+        <div class="w-full md:w-1/2 flex justify-center flex-col items-center text-center xl:px-[40px] ">
+            <div class="w-[100px] h-[100px] flex items-center justify-center bg-[#001aff] rounded-full mb-[20px]">
+                <i class="fa-regular fa-eye text-[40px] text-white"></i>
+            </div>
+            <p class="text-[#9ca0d2] font-bold">Our vision</p>
+            <p class="font-bold text-2xl text-white mt-[10px] leading-[40px]">Building A Community</p>
+            <p class="text-[#9ca0d2] text-[18px] mt-[10px] font-[400] md:pt-[30px] lg:pt-0">
+                To build a thriving ecosystem for blockchain gaming and introduce new ways for players to earn crypto in a fun, engaging way. Community is the core of our organization, and we’re building a tribe of forward-thinking early-adopters, creators, and supporters.
+            </p>
+        </div>
+    </div>
+    
+    <div class="GIGO ECOSYSTEM flex flex-col md:flex-row px-[10px] lg:px-[90px] gap-[40px] py-[30px] bg-[#16182d]">
+        <div class="flex flex-col w-full lg:w-1/2">
+            <p>
+                <img src="https://gigo.prexius.com/images/items/4.jpg" class="xl:h-[350px] rounded-lg w-full xl:p-[20px]">
+            </p>
+            <p class="text-white text-[20px] font-bold lg:text-2xl pt-4 pr-[35px] lg:pl-[20px]">Embrace the Gigo Ecosystem</p>
+            <p class="text-[#9ca0d2] pt-6 text-[18px] font-semibold lg:pl-[20px]">
+                We help creators and game development studios embrace Gigo robust blockchain ecosystem for their Bblockchain and digital asset strategies. We will guide developers on integrating and move their NFTs from any chain onto Efinity.
+            </p>
+        </div>
+        <div class="flex flex-col w-full lg:w-1/2">
+            <p>
+                <img src="https://gigo.prexius.com/images/items/5.jpg" class="xl:h-[350px] rounded-lg w-full xl:p-[20px]">
+            </p>
+            <p class="text-white text-[20px] font-bold lg:text-2xl pt-4 pr-[35px] lg:pl-[20px]">Embrace the Gigo Ecosystem</p>
+            <p class="text-[#9ca0d2] pt-6 text-[18px] font-semibold lg:pl-[20px]">
+                We help creators and game development studios embrace Gigo robust blockchain ecosystem for their Bblockchain and digital asset strategies. We will guide developers on integrating and move their NFTs from any chain onto Efinity.
+            </p>
+        </div>
+    </div> 
+    <footer class="bg-[#090a1a]">
+        <div class="flex  p-[24px] flex-row  gap-[20px] xl:gap-[50px] lg:justify-between flex-wrap">
+          <div class="flex flex-col justify-center w-full md:w-2/3 lg:w-2/6 pl-0 lg:pl-[30px]">
+              <p><img src="https://gigo.prexius.com/images/logo.png"></p>
+              <p class="text-[#9ca0d2] pr-0 md:pr-10 lg:pr-10 text-lg pt-3">Gigo is a unique and beautiful collection of UI elements that are all flexible and modular. A complete and customizable solution to building the website of your dreams.
+              </p>
+          </div>
+          <div class="flex justify-center flex-col leading-loose w-[120px] md:w-[150px] lg:w-[120px]" >
+             <p class="text-white font-bold">About us</p>
+             <p class="text-[#9ca0d2] text-lg pt-2">Explore</p>
+             <p class="text-[#9ca0d2] text-lg">Item</p>
+             <p class="text-[#9ca0d2] text-lg">Collection</p>
+             <p class="text-[#9ca0d2] text-lg">Connect</p>
+         </div>
+         <div class="flex justify-center  flex-col leading-loose  w-[120px] md:w-[150px] lg:w-[120px">
+          <p class="text-white font-bold">Settings</p>
+          <p class="text-[#9ca0d2] text-lg pt-2">Settings</p>
+          <p class="text-[#9ca0d2] text-lg">Application</p>
+          <p class="text-[#9ca0d2] text-lg">Security</p>
+          <p class="text-[#9ca0d2] text-lg">Activity</p>
+          </div>
+          <div class="flex justify-center  flex-col leading-loose w-[120px] md:w-[150px] lg:w-[120px ">
+             <p class="text-white font-bold">Profile</p>
+             <p class="text-[#9ca0d2] text-lg pt-2">Profile</p>
+             <p class="text-[#9ca0d2] text-lg">Created</p>
+             <p class="text-[#9ca0d2] text-lg">Collected</p>
+             <p class="text-[#9ca0d2] text-lg">Activity</p>
+         </div>
+         <div class="flex justify-center  flex-col w-[120px] md:w-[150px] lg:w-[120px]">
+          <p class="text-[#9ca0d2] text-lg pt-8">On Sale</p>
+          <p class="text-[#9ca0d2] text-lg">Liked</p>
+          <p class="text-[#9ca0d2] text-lg">Following</p>
+          <p class="text-[#9ca0d2] text-lg">Followers</p>
+      </div>
+    
+          </div>
+        
+          <hr class="border-t-2 border-gray-500/50">
+          <div class="flex flex-col md:flex-row md:justify-between items-center pt-4">
+              <p class="pl-2 md:pl-14 text-[#9ca0d2]">© Copyright 2022 <span class="text-blue-700">Gigo</span> All Rights Reserved</p>
+              <div class="flex flex-row justify-center gap-[8px] px-[50px]">
+                  <p class="pt-0 md:pt-3"><i class="fa-brands fa-facebook" style="color: #b4b7bb;"></i></p>
+                  <p class="pt-0 md:pt-3"><i class="fa-brands fa-twitter" style="color: #adafb3;"></i></p>
+                  <p class="pt-0 md:pt-3"><i class="fa-brands fa-linkedin" style="color: #adafb3;"></i></p>
+                  <p class="pt-0 md:pt-3"><i class="fa-brands fa-youtube" style="color: #a6aab0;"></i></p>
+    
+              </div>
+          </div>
+        </footer>
+   
+</body>
+</html>
